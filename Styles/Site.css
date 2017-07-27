@@ -1,0 +1,66 @@
+﻿td img {display: block;}body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #ECF5FC;
+}
+.style1 {	color: #414042;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style11 {	color: #414042;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style26 {color: #F4F5F5}
+.style27 {color: #414042; font-size: 13px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+.style29 {color: #414042; font-size: 13px; font-family: Arial, Helvetica, sans-serif; font-style:italic; }
+.style28 {color: #224086}
+.style5 {color: #FFFFFF; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; }
+.style51 {color: #000000; font-size: 11px; font-family: Arial, Helvetica, sans-serif; }
+.style6 {	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #414042;
+	font-weight: bold;
+}
+.style7 {color: #FFFFFF; font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+a:link {
+	color: #414042;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #414042;
+}
+a:hover {
+	text-decoration: none;
+	color: #224086;
+}
+a:active {
+	text-decoration: none;
+	color: #224086;
+}
+
+/* jQuery lightBox plugin - Gallery style */
+        #gallery
+        {
+        }
+        #gallery ul
+        {
+            list-style: none;
+        }
+        #gallery ul li
+        {
+        }
+        #gallery ul img
+        {
+        }
+        #gallery ul a:hover img
+        {
+        }
+        #gallery ul a:hover
+        {
+        }

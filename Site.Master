@@ -1,0 +1,231 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CSSBuilding.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat=server>
+    <title>CSS Building</title>
+    <link href="styles/site.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/jquery.lightbox-0.5.css" media="screen" />
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-29645544-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+</script>
+
+    <!--Fireworks CS3 Dreamweaver CS3 target.  Created Fri Dec 02 11:43:11 GMT-0800 (Pacific Standard Time) 2011-->
+    <script type="text/JavaScript">
+<!--
+        function MM_preloadImages() { //v3.0
+            var d = document; if (d.images) {
+                if (!d.MM_p) d.MM_p = new Array();
+                var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+                    if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+            }
+        }
+
+        function MM_findObj(n, d) { //v4.01
+            var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+                d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+            }
+            if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+            if (!x && d.getElementById) x = d.getElementById(n); return x;
+        }
+
+        function MM_nbGroup(event, grpName) { //v6.0
+            var i, img, nbArr, args = MM_nbGroup.arguments;
+            if (event == "init" && args.length > 2) {
+                if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+                    img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+                    if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+                    nbArr[nbArr.length] = img;
+                    for (i = 4; i < args.length - 1; i += 2) if ((img = MM_findObj(args[i])) != null) {
+                        if (!img.MM_up) img.MM_up = img.src;
+                        img.src = img.MM_dn = args[i + 1];
+                        nbArr[nbArr.length] = img;
+                    }
+                }
+            } else if (event == "over") {
+                document.MM_nbOver = nbArr = new Array();
+                for (i = 1; i < args.length - 1; i += 3) if ((img = MM_findObj(args[i])) != null) {
+                    if (!img.MM_up) img.MM_up = img.src;
+                    img.src = (img.MM_dn && args[i + 2]) ? args[i + 2] : ((args[i + 1]) ? args[i + 1] : img.MM_up);
+                    nbArr[nbArr.length] = img;
+                }
+            } else if (event == "out") {
+                for (i = 0; i < document.MM_nbOver.length; i++) {
+                    img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up;
+                }
+            } else if (event == "down") {
+                nbArr = document[grpName];
+                if (nbArr)
+                    for (i = 0; i < nbArr.length; i++) { img = nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+                document[grpName] = nbArr = new Array();
+                for (i = 2; i < args.length - 1; i += 2) if ((img = MM_findObj(args[i])) != null) {
+                    if (!img.MM_up) img.MM_up = img.src;
+                    img.src = img.MM_dn = (args[i + 1]) ? args[i + 1] : img.MM_up;
+                    nbArr[nbArr.length] = img;
+                }
+            }
+        }
+//-->
+    </script>
+    <style type="text/css">
+        .style52
+        {
+            width: 290px;
+        }
+    </style>
+</head>
+<body onload="MM_preloadImages('images/leanbut_2.png')">
+<div id="fb-root"></div>
+<script>    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));</script>
+    <table width="1032" border="0" align="center" cellpadding="0" cellspacing="0">
+        <!-- fwtable fwsrc="main.png" fwpage="Page 1" fwbase="main.png" fwstyle="Dreamweaver" fwdocid = "179979444" fwnested="0" -->
+        <tr>
+            <td>
+                <img src="images/spacer.gif" width="20" height="1" border="0" alt="" />
+            </td>
+            <td>
+                <img src="images/spacer.gif" width="4" height="1" border="0" alt="" />
+            </td>
+            <td>
+                <img src="images/spacer.gif" width="988" height="1" border="0" alt="" />
+            </td>
+            <td>
+                <img src="images/spacer.gif" width="20" height="1" border="0" alt="" />
+            </td>
+            <td>
+                <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" rowspan="2" align="center" valign="top" background="images/main_r1_c1.png">
+                <table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="128" background="images/top_bg.jpg">
+                            <table width="989" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="267" rowspan="3">
+                                        <a href="default.aspx">
+                                            <img name="main_r3_c1" src="images/logo.png" width="267" height="105" border="0"
+                                                id="main_r3_c1" alt="" /></a>
+                                    </td>
+                                    <td width="59" height="40">
+                                        &nbsp;
+                                    </td>
+                                    <td width="663">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                    <td align="right">
+                                        <table width="500" border="0" cellpadding="5" cellspacing="5">
+                                            <tr>
+                                                <td>
+                                                    <div align="center">
+                                                        <span class="style27"><a href="default.aspx">Home</a></span></div>
+                                                </td>
+                                                <td>
+                                                    <div align="center">
+                                                        <span class="style27"><a href="services.aspx">Services</a></span></div>
+                                                </td>
+                                                <td>
+                                                    <div align="center">
+                                                        <span class="style27"><a href="references.aspx">References</a></span></div>
+                                                </td>
+                                                <td>
+                                                    <div align="center">
+                                                        <span class="style27"><a href="gallery.aspx">Gallery</a></span></div>
+                                                </td>
+                                                <td>
+                                                    <div align="center">
+                                                        <span class="style27"><a href="contactus.aspx">Contact Us</a></span></div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                    </table>
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </td>
+            <td>
+                <img src="images/spacer.gif" width="1" height="4" border="0" alt="" />
+            </td>
+        </tr>
+        <tr>
+            <td height="233">
+                <img src="images/spacer.gif" width="1" height="16" border="0" alt="" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img name="main_r3_c1" src="images/main_r3_c1.png" width="20" height="97" border="0"
+                    id="main_r3_c1" alt="" />
+            </td>
+            <td colspan="2" background="images/main_r3_c2.png">
+                <table width="971" height="44" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="style52">
+                            <span class="style1">Copyright &copy; 2012 CSS Building
+                                . All rights reserved</span>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td width="168">
+                           <a href="http://www.nhbrc.org.za/" target="_blank">
+                                                        <img src="images/nhbrc.gif" border="0" /></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <img name="main_r3_c4" src="images/main_r3_c4.png" width="20" height="97" border="0"
+                    id="main_r3_c4" alt="" />
+            </td>
+            <td>
+                <img src="images/spacer.gif" width="1" height="97" border="0" alt="" />
+            </td>
+        </tr>
+    </table>
+    <map name="main_r3_c1Map" id="main_r3_c1Map">
+        <area shape="rect" coords="0" href="#" />
+        <area shape="rect" coords="69, 1, 99, 33" href="#" />
+        <area shape="rect" coords="103, 1, 133, 36" href="#" />
+        <area shape="rect" coords="138, 1, 177, 38" href="#" />
+    </map>
+</body>
+</html>
